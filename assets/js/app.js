@@ -1,8 +1,5 @@
-const navLinks = document.querySelectorAll('.nav-item');
-const menuToggle = document.getElementById('navbarNavDropdown');
-const bsCollapse = new bootstrap.Collapse(menuToggle);
-navLinks.forEach((l) => {
-  l.addEventListener('click', () => {
-    bsCollapse.toggle();
+$('#navbarNavDropdown').on('show.bs.collapse', function () {
+  $('a.nav-link').click(function () {
+    $('#navbarNavDropdown').collapse('hide');
   });
 });

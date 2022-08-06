@@ -1,0 +1,169 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.pt-100 {
+  padding-top: 60px;
+}
+
+.main-bg {
+  background-image: url('../images/header-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 92vh;
+}
+
+.overlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.3);
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 100vh;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header-content h1 {
+  font-size: 50px;
+  color: white;
+  font-weight: bolder;
+}
+
+.header-content .lead {
+  color: white;
+}
+
+.btn-light {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.work {
+  padding-top: 50px;
+}
+
+.work h1 {
+  text-align: center;
+}
+
+.projects-bottom {
+  border-bottom: 5px solid black;
+  width: 100px;
+}
+
+.contact-bottom {
+  border-bottom: 5px solid #9fa2a3;
+}
+
+.parent-projects-bottom {
+  display: flex;
+  justify-content: center;
+}
+
+.projects-heading {
+  padding: 30px 0px;
+}
+
+.project-description {
+  text-align: center;
+  padding: 20px;
+  color: black;
+}
+
+.project-description h1 {
+  font-size: 20px;
+}
+
+.project-link:hover {
+  text-decoration: none;
+}
+
+.contact h1 {
+  text-align: center;
+}
+
+.contact,
+.testimonials {
+  background: #0f1822;
+  color: #9fa2a3;
+}
+
+.contact-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-links .nav-link {
+  color: white;
+}
+
+.about h1 {
+  text-align: center;
+}
+
+.testimonials h1 {
+  text-align: center;
+}
+
+.about-right-parent {
+  background: #0f1822;
+  color: #9fa2a3;
+  display: flex;
+  align-items: center;
+}
+
+.about-right {
+  padding: 20px 25px;
+}
+
+.blogs h1 {
+  text-align: center;
+}
+
+.blog-link {
+  background: #0f1822;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+.blog-link:hover {
+  color: #9fa2a3;
+}
+
+.blog-title {
+  font-weight: bold;
+}
+
+@media (max-width: 550px) {
+  .header-content h1 {
+    font-size: 35px;
+    padding: 0px 20px;
+    text-align: center;
+  }
+
+  .header-content .lead {
+    padding: 0px 20px;
+    text-align: center;
+  }
+
+  .project-description h1 {
+    font-size: 25px;
+  }
+}

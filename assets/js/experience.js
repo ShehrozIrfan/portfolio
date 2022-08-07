@@ -11,12 +11,19 @@ const isInViewport = (el) => {
   );
 };
 
-const run = () =>
-  items.forEach((item) => {
-    if (isInViewport(item)) {
+const run = () => {
+  if (screen.width >= 600) {
+    items.forEach((item) => {
+      if (isInViewport(item)) {
+        item.classList.add('show');
+      }
+    });
+  } else {
+    items.forEach((item) => {
       item.classList.add('show');
-    }
-  });
+    });
+  }
+};
 
 // Events
 window.addEventListener('load', run);

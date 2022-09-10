@@ -32,6 +32,16 @@ html {
   animation: gradient 15s ease infinite;
 }
 
+.general-link-color {
+  color: #9fa2a3;
+}
+
+.general-link-color:hover {
+  text-decoration: none;
+  color: #9fa2a3;
+  opacity: 0.8;
+}
+
 @keyframes gradient {
   0% {
     background-position: 0% 50%;

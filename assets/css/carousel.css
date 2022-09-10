@@ -5,6 +5,10 @@
   min-height: 300px;
 }
 
+.projects-carousel-icons {
+  filter: invert(100%);
+}
+
 @media (max-width: 768px) {
   .testimonials-description {
     width: 70%;

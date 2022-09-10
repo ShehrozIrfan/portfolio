@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/navbar.css" />
     <link rel="stylesheet" href="./assets/css/images.css" />
-    <link rel="stylesheet" href="./assets/css/testimonials-carousel.css" />
+    <link rel="stylesheet" href="./assets/css/carousel.css" />
     <link rel="stylesheet" href="./assets/css/experience.css" />
 
     <title>Shehroz Irfan | Full Stack Website Developer</title>
@@ -244,104 +244,124 @@
               </div>
             </div>
           </div>
-          <div class="col-md-12">
-            <div class="project-image-box">
-              <a
-                href="https://www.start.interappusa.com/"
-                class="project-link"
-                target="_blank"
+          <div class="row">
+            <div class="col-md-12">
+              <div
+                id="projects-carousel"
+                class="carousel slide"
+                data-ride="carousel"
               >
-                <div>
-                  <img
-                    src="./assets/images/project-interapp.png"
-                    class="project-interapp"
-                  />
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                  <li
+                    data-target="#projects-carousel"
+                    data-slide-to="0"
+                    class="active"
+                  ></li>
+                  <li
+                    data-target="#projects-carousel"
+                    data-slide-to="1"
+                  ></li>
+                </ul>
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="project-image-box">
+                      <a
+                        href="https://www.start.interappusa.com/"
+                        class="project-link"
+                        target="_blank"
+                      >
+                        <div>
+                          <img
+                            src="./assets/images/project-interapp.png"
+                            class="project-interapp"
+                          />
+                        </div>
+                        <div class="project-description">
+                          <h1>InterApp</h1>
+                          <p>Ruby on Rails | Stripe | Bootstrap | JQuery</p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="project-image-box">
+                      <a
+                        href="https://shehrozirfan.github.io/CD-NewsGridWebsite/"
+                        class="project-link"
+                        target="_blank"
+                      >
+                        <div>
+                          <img
+                            src="./assets/images/project-news.png"
+                            class="project-interapp"
+                          />
+                        </div>
+                        <div class="project-description">
+                          <h1>News Grid</h1>
+                          <p>HTML | CSS | JavaScript</p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="project-image-box">
+                      <a
+                        href="https://shehrozirfan.github.io/CD-PortfolioWebsite/index.html"
+                        class="project-link"
+                        target="_blank"
+                      >
+                        <div>
+                          <img
+                            src="./assets/images/project-portfolio.png"
+                            class="project-interapp"
+                          />
+                        </div>
+                        <div class="project-description">
+                          <h1>Portfolio Website</h1>
+                          <p>HTML | CSS | JavaScript</p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="project-image-box">
+                      <a
+                        href="https://adoring-raman-89b580.netlify.app/"
+                        class="project-link"
+                        target="_blank"
+                      >
+                        <div>
+                          <img
+                            src="./assets/images/project-movie.png"
+                            class="project-interapp"
+                          />
+                        </div>
+                        <div class="project-description">
+                          <h1>Movie Search App</h1>
+                          <p>ReactJS | API</p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
                 </div>
-                <div class="project-description">
-                  <h1>InterApp</h1>
-                  <p>Ruby on Rails | Stripe | Bootstrap | JQuery</p>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="project-image-box">
-              <a
-                href="https://shehrozirfan.github.io/CD-NewsGridWebsite/"
-                class="project-link"
-                target="_blank"
-              >
-                <div>
-                  <img
-                    src="./assets/images/project-news.png"
-                    class="project-interapp"
-                  />
-                </div>
-                <div class="project-description">
-                  <h1>News Grid</h1>
-                  <p>HTML | CSS | JavaScript</p>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="project-image-box">
-              <a
-                href="https://shehrozirfan.github.io/CD-PortfolioWebsite/index.html"
-                class="project-link"
-                target="_blank"
-              >
-                <div>
-                  <img
-                    src="./assets/images/project-portfolio.png"
-                    class="project-interapp"
-                  />
-                </div>
-                <div class="project-description">
-                  <h1>Portfolio Website</h1>
-                  <p>HTML | CSS | JavaScript</p>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="project-image-box">
-              <a
-                href="https://adoring-raman-89b580.netlify.app/"
-                class="project-link"
-                target="_blank"
-              >
-                <div>
-                  <img
-                    src="./assets/images/project-movie.png"
-                    class="project-interapp"
-                  />
-                </div>
-                <div class="project-description">
-                  <h1>Movie Search App</h1>
-                  <p>ReactJS | API</p>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="project-image-box">
-              <a
-                href="https://shehrozirfan.github.io/numberGuesser/numberGuesser.html"
-                class="project-link"
-                target="_blank"
-              >
-                <div>
-                  <img
-                    src="./assets/images/project-number-guesser.png"
-                    class="project-interapp"
-                  />
-                </div>
-                <div class="project-description">
-                  <h1>Number Guesser Game</h1>
-                  <p>JavaScript</p>
-                </div>
-              </a>
+                <!-- Left and right controls -->
+                <a
+                  class="carousel-control-prev"
+                  href="#projects-carousel"
+                  data-slide="prev"
+                >
+                  <span class="carousel-control-prev-icon projects-carousel-icons"></span>
+                </a>
+                <a
+                  class="carousel-control-next"
+                  href="#projects-carousel"
+                  data-slide="next"
+                >
+                  <span class="carousel-control-next-icon projects-carousel-icons"></span>
+                </a>
+              </div>
             </div>
           </div>
         </div>

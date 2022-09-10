@@ -100,7 +100,7 @@ html {
 }
 
 .contact-bottom {
-  border-top: 5px solid #9fa2a3;
+  border-top: 5px solid black;
 }
 
 .parent-projects-bottom {
@@ -130,10 +130,13 @@ html {
   text-align: center;
 }
 
-.contact,
 .testimonials {
   background: #0f1822;
   color: #9fa2a3;
+}
+
+.contact {
+  color: black;
 }
 
 .contact-links {
@@ -143,7 +146,7 @@ html {
 }
 
 .contact-links .nav-link {
-  color: white;
+  color: black;
 }
 
 .about h1 {

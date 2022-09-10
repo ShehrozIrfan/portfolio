@@ -11,7 +11,7 @@
     />
     <!-- Google Fonts -->
     <link
-      href="https://fonts.googleapis.com/css?family=Dosis"
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Oleo+Script+Swash+Caps:wght@700&display=swap"
       rel="stylesheet"
     />
     <!-- Bootstrap CSS -->
@@ -21,6 +21,8 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    <!-- Animate on Scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
@@ -28,6 +30,7 @@
     <link rel="stylesheet" href="./assets/css/navbar.css" />
     <link rel="stylesheet" href="./assets/css/images.css" />
     <link rel="stylesheet" href="./assets/css/testimonials-carousel.css" />
+    <link rel="stylesheet" href="./assets/css/experience.css" />
 
     <title>Shehroz Irfan | Full Stack Website Developer</title>
   </head>
@@ -35,7 +38,7 @@
     <!-- header -->
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand" href="index.html">Shehroz Irfan</a>
+        <a class="navbar-brand main-logo" href="index.html">Shehroz Irfan</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -54,6 +57,11 @@
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link nav-link-pad pr-4" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-pad pr-4" href="#experience"
+                >Experience</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link nav-link-pad pr-4" href="#projects">Work</a>
@@ -109,7 +117,13 @@
       </div>
     </section>
     <!-- Section About -->
-    <section class="about" id="about">
+    <section
+      class="about pt-50"
+      id="about"
+      data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000"
+    >
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -151,8 +165,77 @@
         </div>
       </div>
     </section>
+    <!-- Section Experience -->
+    <section class="experience pt-50" id="experience">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="projects-heading">
+              <h1>WORK EXPERIENCE</h1>
+              <div class="parent-projects-bottom">
+                <div class="projects-bottom contact-bottom">&nbsp;</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="timeline">
+          <ul>
+            <li>
+              <div>
+                <h4><i class="fa fa-chevron-right"></i> Software Engineer</h4>
+                <p><i>June 2022 - Present</i></p>
+                <p>
+                  <i class="fa fa-building" aria-hidden="true"
+                    ><a href="https://euphoriaxr.com/" target="_blank"
+                      ><strong>EuphoriaXR</strong></a
+                    ></i
+                  >
+                </p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h4>
+                  <i class="fa fa-chevron-right"></i> Associate Software
+                  Engineer
+                </h4>
+                <p><i>Nov 2021 - May 2022</i></p>
+                <p>
+                  <i class="fa fa-building" aria-hidden="true"
+                    ><a href="https://euphoriaxr.com/" target="_blank"
+                      ><strong>EuphoriaXR</strong></a
+                    ></i
+                  >
+                </p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h4>
+                  <i class="fa fa-chevron-right"></i> Web Development Intern
+                </h4>
+                <p><i>June 2021 - Oct 2021</i></p>
+                <p>
+                  <i class="fa fa-building" aria-hidden="true"
+                    ><a href="https://euphoriaxr.com/" target="_blank"
+                      ><strong>EuphoriaXR</strong></a
+                    ></i
+                  >
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
     <!-- Section Work -->
-    <section class="work" id="projects">
+    <section
+      class="work"
+      id="projects"
+      data-aos="zoom-in"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000"
+    >
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -267,100 +350,112 @@
       </div>
     </section>
     <!-- Section Testimonials -->
-    <section class="testimonials" id="testimonials">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="projects-heading">
-              <h1>Testimonials</h1>
-              <div class="parent-projects-bottom">
-                <div class="projects-bottom contact-bottom">&nbsp;</div>
+    <section class="testimonials pt-50" id="testimonials">
+      <div class="testimonials-parallax">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="projects-heading">
+                <h1>TESTIMONIALS</h1>
+                <div class="parent-projects-bottom">
+                  <div class="projects-bottom contact-bottom">&nbsp;</div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-            <div
-              id="testimonials-carousel"
-              class="carousel slide"
-              data-ride="carousel"
-            >
-              <!-- Indicators -->
-              <ul class="carousel-indicators">
-                <li
-                  data-target="#testimonials-carousel"
-                  data-slide-to="0"
-                  class="active"
-                ></li>
-                <li data-target="#testimonials-carousel" data-slide-to="1"></li>
-              </ul>
-              <!-- The slideshow -->
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div class="testimonials-description">
-                    <div class="text-center">
-                      Professional and competent is what comes to mind when I
-                      describe Shehroz. One year ago, he was hired at Euphoria
-                      as a developer. During all these months, we have worked on
-                      many projects together and he hasn’t disappointed even
-                      once. He knows how to manage multiple projects at the same
-                      time, and boosts the productivity of a team. He is
-                      skilful, hard working, and makes a great leader. It is
-                      indeed his intelligence combined with his knowledge of
-                      latest industry trends that make him an important asset of
-                      Euphoria XR. I see him as a senior developer in 2 years
-                      and leading multiple people at Euphoria XR and proud
-                      Euphorian.
+          <div class="row">
+            <div class="col-md-12">
+              <div
+                id="testimonials-carousel"
+                class="carousel slide"
+                data-ride="carousel"
+              >
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                  <li
+                    data-target="#testimonials-carousel"
+                    data-slide-to="0"
+                    class="active"
+                  ></li>
+                  <li
+                    data-target="#testimonials-carousel"
+                    data-slide-to="1"
+                  ></li>
+                </ul>
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="testimonials-description">
+                      <div class="text-center">
+                        Professional and competent is what comes to mind when I
+                        describe Shehroz. One year ago, he was hired at Euphoria
+                        as a developer. During all these months, we have worked
+                        on many projects together and he hasn’t disappointed
+                        even once. He knows how to manage multiple projects at
+                        the same time, and boosts the productivity of a team. He
+                        is skilful, hard working, and makes a great leader. It
+                        is indeed his intelligence combined with his knowledge
+                        of latest industry trends that make him an important
+                        asset of Euphoria XR. I see him as a senior developer in
+                        2 years and leading multiple people at Euphoria XR and
+                        proud Euphorian.
+                      </div>
+                      <div class="text-center pt-4">
+                        <strong>Ali Ahmad</strong> - <i>CEO</i> - EuphoriaXR
+                      </div>
                     </div>
-                    <div class="text-center pt-4">
-                      <strong>Ali Ahmad</strong> - <i>CEO</i> - EuphoriaXR
+                  </div>
+                  <div class="carousel-item">
+                    <div class="testimonials-description">
+                      <div class="text-center">
+                        Shehroz Irfan is not only a great and precise software
+                        engineer but also an inspiring person. He understands
+                        complex issues even when outside of his direct area of
+                        expertise. For Shehroz Irfan the job is obviously the
+                        most important thing to do. Thanks to interpersonal
+                        skills he has great relations with both company clients
+                        and potential customers. Energetic and broad-minded
+                        software engineer - that's him! Detail oriented team
+                        player. Shehroz Irfan will find a way to weather any
+                        storm with a smile. I thoroughly enjoyed collaborating
+                        with him at EuphoriaXR.
+                      </div>
+                      <div class="text-center pt-4">
+                        <strong>Jameel Quereshi</strong> - <i>CTO</i> -
+                        EuphoriaXR
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div class="carousel-item">
-                  <div class="testimonials-description">
-                    <div class="text-center">
-                      Shehroz Irfan is not only a great and precise software
-                      engineer but also an inspiring person. He understands
-                      complex issues even when outside of his direct area of
-                      expertise. For Shehroz Irfan the job is obviously the most
-                      important thing to do. Thanks to interpersonal skills he
-                      has great relations with both company clients and
-                      potential customers. Energetic and broad-minded software
-                      engineer - that's him! Detail oriented team player.
-                      Shehroz Irfan will find a way to weather any storm with a
-                      smile. I thoroughly enjoyed collaborating with him at
-                      EuphoriaXR.
-                    </div>
-                    <div class="text-center pt-4">
-                      <strong>Jameel Quereshi</strong> - <i>CTO</i> - EuphoriaXR
-                    </div>
-                  </div>
-                </div>
+                <!-- Left and right controls -->
+                <a
+                  class="carousel-control-prev"
+                  href="#testimonials-carousel"
+                  data-slide="prev"
+                >
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a
+                  class="carousel-control-next"
+                  href="#testimonials-carousel"
+                  data-slide="next"
+                >
+                  <span class="carousel-control-next-icon"></span>
+                </a>
               </div>
-              <!-- Left and right controls -->
-              <a
-                class="carousel-control-prev"
-                href="#testimonials-carousel"
-                data-slide="prev"
-              >
-                <span class="carousel-control-prev-icon"></span>
-              </a>
-              <a
-                class="carousel-control-next"
-                href="#testimonials-carousel"
-                data-slide="next"
-              >
-                <span class="carousel-control-next-icon"></span>
-              </a>
             </div>
           </div>
         </div>
       </div>
     </section>
     <!-- Section Blogs -->
-    <section class="blogs" id="blogs">
+    <section
+      class="blogs pt-50"
+      id="blogs"
+      data-aos="fade-right"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="1000"
+    >
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -451,7 +546,7 @@
       </div>
     </section>
     <!-- Section Contact -->
-    <section class="contact" id="contact">
+    <section class="contact pt-50" id="contact">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -541,8 +636,14 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <!-- Type Effect Tutorial: https://www.youtube.com/watch?v=POX3dT-pB4E -->
     <script src="./assets/js/typewriter.js"></script>
     <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/experience.js"></script>
   </body>
 </html>

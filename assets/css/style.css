@@ -32,6 +32,16 @@ html {
   animation: gradient 15s ease infinite;
 }
 
+.general-link-color {
+  color: #9fa2a3;
+}
+
+.general-link-color:hover {
+  text-decoration: none;
+  color: #9fa2a3;
+  opacity: 0.8;
+}
+
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
@@ -90,7 +100,7 @@ html {
 }
 
 .contact-bottom {
-  border-top: 5px solid #9fa2a3;
+  border-top: 5px solid black;
 }
 
 .parent-projects-bottom {
@@ -120,10 +130,13 @@ html {
   text-align: center;
 }
 
-.contact,
 .testimonials {
   background: #0f1822;
   color: #9fa2a3;
+}
+
+.contact {
+  color: black;
 }
 
 .contact-links {
@@ -133,7 +146,7 @@ html {
 }
 
 .contact-links .nav-link {
-  color: white;
+  color: black;
 }
 
 .about h1 {

@@ -2,7 +2,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 html {
@@ -10,7 +10,7 @@ html {
 }
 
 .main-logo {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .pt-100 {
@@ -95,12 +95,15 @@ html {
 }
 
 .projects-bottom {
-  border-top: 5px solid black;
   width: 100px;
 }
 
-.contact-bottom {
+.border-bottom-dark {
   border-top: 5px solid black;
+}
+
+.border-bottom-light {
+  border-top: 5px solid #9fa2a3;
 }
 
 .parent-projects-bottom {

@@ -34,6 +34,7 @@ html {
 
 .general-link-color {
   color: #9fa2a3;
+  border-bottom: 2px solid #9fa2a3;
 }
 
 .general-link-color:hover {
